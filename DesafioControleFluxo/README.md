@@ -1,18 +1,16 @@
-## Getting Started
+# Contador
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este programa em Java solicita dois parâmetros inteiros ao usuário e imprime todos os números no intervalo entre esses parâmetros. Se o segundo parâmetro não for maior que o primeiro, uma mensagem de erro é exibida.
 
-## Folder Structure
+## Funcionalidades
 
-The workspace contains two folders by default, where:
+- Solicita dois números inteiros ao usuário.
+- Valida se o segundo número é maior que o primeiro.
+- Imprime os números no intervalo especificado.
+- Trata entradas inválidas e exibe mensagens de erro apropriadas.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Tratamento de Exceções
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+  |` InputMismatchException` - Lançada quando a entrada fornecida não é um número inteiro. |`ParametroInvalidosException` - Lançada quando o segundo parâmetro não é maior que o primeiro.|
+  |--|--|
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
